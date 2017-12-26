@@ -29,6 +29,6 @@ Just specify what you prefer in the template:
 //template <size_t nHashes, size_t columns, probInternal::HashFunction hashFunction = MurmurHash3_x64_128>
 //default hash
 CountMinSketch<10,6000> c1;
-//specify your onw
+//specify your own hash
 CountMinSketch<10,6000, myHash> c2;
 ```
